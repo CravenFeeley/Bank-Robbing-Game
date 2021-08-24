@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7361849411704677225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7895470762408767075}
+  - component: {fileID: 4403339915019578035}
+  m_Layer: 0
+  m_Name: GameManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7895470762408767075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7361849411704677225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.7263246, y: -0.27646446, z: -2.608879}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4403339915019578035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7361849411704677225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a497fa2a2af604b93f0b85125189a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerList: []
+  HostageTeam: []
+  RobberTeam: []
+  HostageCount: 0
+  Hostages: []
+  HostagesControlled: []
+  HostagesScared: []
+  HostagesAvailable: []
+  Robbers: []
+  Materials:
+  - {fileID: 2100000, guid: e7e0873634dcfa143adf872f7949d042, type: 2}
+  - {fileID: 2100000, guid: b0e50ea77c960b443b01c972f3cd0e93, type: 2}
+  - {fileID: 2100000, guid: a3b49d40d953cb549b7769f3c112ed5a, type: 2}
+  - {fileID: 2100000, guid: 6b1f745d46612174489798d09f63088b, type: 2}
+  - {fileID: 2100000, guid: 26f259345c4acfd42b2f84c42b0aa777, type: 2}
+  - {fileID: 2100000, guid: 62418c40ea9d8e848bb4e5ba862da79e, type: 2}
+  PowerUpPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PowerUpPosition: {fileID: 0}
+  PowerupTimer: 20
+  PowerUpTimeStart: 20
+  Powerup: {fileID: 157495907861422584, guid: 65c62f72cb1f6f94a9d6d0f321d23d9c, type: 3}
+  NumberofPlayers: 2
+  TransformPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Countdown: 3
+  Countdowntext: {fileID: 0}
+  Getdown: {fileID: 0}
+  PlayerSelectScreen: {fileID: 0}
+  Welcome1: {fileID: 0}
+  Welcome2: {fileID: 0}
+  Welcome3: {fileID: 0}
+  Welcome4: {fileID: 0}
+  TeamSelectScreen: {fileID: 0}
+  Hostage1: {fileID: 0}
+  Hostage2: {fileID: 0}
+  Hostage3: {fileID: 0}
+  Hostage4: {fileID: 0}
+  Robber1: {fileID: 0}
+  Robber2: {fileID: 0}
+  Robber3: {fileID: 0}
+  Robber4: {fileID: 0}
+  playerselect: 0
